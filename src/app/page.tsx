@@ -69,7 +69,7 @@ export default async function Home() {
                 <TableCell className="text-center">
                   {highlightNew(productData && productData["Encomenda 1"])}
                 </TableCell>
-                <TableCell className="text-right">
+                <TableCell className="text-center lg:text-right">
                   {highlightNew(productData && productData["Encomenda 2"])}
                 </TableCell>
               </TableRow>
