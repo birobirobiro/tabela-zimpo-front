@@ -53,7 +53,7 @@ export default async function Home() {
             <TableHead className="w-[500px]">Produto</TableHead>
             <TableHead className="text-center">Pronta Entrega</TableHead>
             <TableHead className="text-center">Encomenda 1</TableHead>
-            <TableHead className="text-right">Encomenda 2</TableHead>
+            <TableHead className="text-center lg:text-right">Encomenda 2</TableHead>
           </TableRow>
         </TableHeader>
         <TableBody>
